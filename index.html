@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height:150px;
+        }
+        header h1 {
+            margin: 0;
+            margin-left: 20px;
+        }
+       
+        nav ul {
+            list-style: none;
+            padding: 40;
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+           
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px 0px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><img src="MY IMAGE.jpg" alt="Profile Picture"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm NAMAN SINGH, a passionate web developer with a knack for creating beautiful and functional websites. I love coding, design, and bringing ideas to life!</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Ms word & Ms Excel</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Python & C</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>ILLNESS INSIGHT</h3>
+                <p>Illness Insight is a project aimed at providing detailed insights into various diseases, including their trends, symptoms, and treatments. Through the website illnessinsight.com, users can explore comprehensive information on different illnesses, access data on related medications, and gain valuable awareness. The site is organized into sections like Home, Explore, Our Clients, About Us, and Contact Us, making it easy for users to navigate and learn about health issues in an accessible, informative manner.</p>
+            </div>
+            <div class="project">
+                <h3>ONLINE GROCERY SHOPPING</h3>
+                <p>Online Grocery Shopping project is a platform designed to make grocery shopping convenient, allowing user to browse,select, and order items online for home delivery</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="demo">
+            <h2>Demo</h2>
+            <video width="320" height="240" controls>
+                
+                <source src="ILLNESS INSIGHT_Analysis in the field of healthcare — Mozilla Firefox 2024-06-12 21-58-03.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!-- Add more demo content as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NAMAN SINGH. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
